@@ -16,7 +16,8 @@
 <dt><i>V<sub>BAT</sub></i></dt>
 <dd>The voltage across the battery under load. This works relatively poorly as a factor for determining battery SOC because <i>V<sub>BAT</sub></i> is not path independent – it is not a state variable.</dd>
 <dt>State of Charge (SOC)</dt>
-<dd>The percentage of full-charge in the battery. For the work here, I model the SOC as a function of voltage, i.e. $ SOC = f\(V_{BAT}\)$. This is a gross oversimplification, but the only "state" variable I have available is battery voltage. While open-circuit <i>V<sub>BAT</sub></i> is not a bad indicator of battery charge, I only have <i>V<sub>BAT</sub></i> under load available and I do not know the load current.</dd>
+<dd>The percentage of full-charge in the battery. For the work here, I model the SOC as a function of voltage, i.e. <i>SOC = f(V<sub>BAT</sub>)</i>. 
+This is a gross oversimplification, but the only "state" variable I have available is battery voltage. While open-circuit <i>V<sub>BAT</sub></i> is not a bad indicator of battery charge, I only have <i>V<sub>BAT</sub></i> under load available and I do not know the load current.</dd>
 </dl>
 
 ### Data Format
